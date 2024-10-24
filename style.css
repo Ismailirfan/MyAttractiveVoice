@@ -1,0 +1,73 @@
+*CSS (style.css)*
+
+```
+.gallery-container {
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.large-card {
+	width: 800px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.large-card iframe {
+	width: 100%;
+	height: 450px;
+	border: none;
+	border-radius: 10px;
+}
+
+.small-cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.small-card {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.small-card iframe {
+	width: 120px;
+	height: 80px;
+	border: none;
+}
+
+.small-card .video-title {
+	font-size: 14px;
+	font-weight: regular;
+}
+
+.small-card .video-link {
+	font-size: 12px;
+	color: #337ab7;
+	text-decoration: underline;
+}
+
+.slider-buttons {
+	margin-top: 20px;
+}
+
+.prev-btn, .next-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.prev-btn:hover, .next-btn:hover {
+	background-color: #3e8e41;
+}
